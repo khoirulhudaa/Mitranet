@@ -14,9 +14,11 @@ const Navbar = () => {
             <img src={Logo} alt="logo-mitranet" className="lg:w-max w-[40%]" />
             <div className={`absolute bg-white shadow-md z-[444444] ${open ? 'left-0' : 'left-[-100%]'} lg:hidden inline duration-200 top-0 h-screen w-[80%] overflow-x-hidden`}>
                 <ul className="list-none">
-                    <li className="my-12 ml-8 text-grayColor cursor-pointer active:scale-[0.98] hover:text-black duration-100">
-                        Beranda
-                    </li>
+                    <Link to={'/'}>
+                        <li className="my-12 ml-8 text-grayColor cursor-pointer active:scale-[0.98] hover:text-black duration-100">
+                            Beranda
+                        </li>
+                    </Link>
                     <Link to={"/tentang-mitranet"}>
                         <li className="my-12 ml-8 text-grayColor cursor-pointer active:scale-[0.98] hover:text-black duration-100">
                             Tentang Mitra
@@ -100,9 +102,11 @@ const Navbar = () => {
             </div>
             <div className="w-full flex items-center justify-center">
                 <ul className="list-none hidden lg:flex items-center ">
-                    <li className="ml-8 text-grayColor cursor-pointer active:scale-[0.98] hover:text-black duration-100">
-                        Beranda
-                    </li>
+                    <Link to={'/'}>
+                        <li className="ml-8 text-grayColor cursor-pointer active:scale-[0.98] hover:text-black duration-100">
+                            Beranda
+                        </li>
+                    </Link>
                     <Link to={"/tentang-mitranet"}>
                         <li className="ml-8 text-grayColor cursor-pointer active:scale-[0.98] hover:text-black duration-100">
                             Tentang Mitra

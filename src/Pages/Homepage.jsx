@@ -144,7 +144,7 @@ const Homepage = () => {
 
         {/* section 6 - Beranda */}
         <section className='relative p-6 lg:p-10 overflow-hidden w-screen mx-auto flex bg-white items-center h-max lg:h-[550px] justify-end'>
-            <div className='relative z-[444] w-full lg:w-[90%] rounded-[12px] py-12 lg:w-[40%] lg:mr-[10%] h-max bg-white shadow-lg p-6'>
+            <div className='relative z-[444] w-full lg:w-[40%] rounded-[12px] py-12 lg:w-[40%] lg:mr-[10%] h-max bg-white shadow-lg p-6'>
                 <h2 className='text-[30px] font-[500]'>Dana Tunai</h2>
                 <p className='my-6 text-slate-500 text-[12px]'>Dapatkan Dana Tunai Cepat Cair & Plafon Tinggi</p>
                 <p className='leading-loose text-[14px]'>Margin pembiayaan kompetitif, tenor beragam, mudah & aman, sebagai solusi kebutuhan Anda. MitraNet bekerjasama dengan berbagai bank dan perusahaan finance terpercaya.</p>
